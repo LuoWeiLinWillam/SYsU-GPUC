@@ -1,0 +1,21 @@
+{
+  "name": "sysu-gpuc-docs",
+  "description": "Docs of SYsU-GPUC",
+  "version": "1.0.0",
+  "license": "GPL-3-only",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build docs",
+    "docs:clean-dev": "vuepress-vite dev docs --clean-cache",
+    "docs:dev": "vuepress-vite dev docs",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "katex": "^0.16.11",
+    "sass-embedded": "^1.79.5",
+    "vue": "^3.5.12",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-theme-hope": "2.0.0-rc.59"
+  }
+}
