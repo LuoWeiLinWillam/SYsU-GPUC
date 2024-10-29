@@ -12,6 +12,9 @@ project(SYsU-GPUC LANGUAGES CXX VERSION 0.0.1)
 # include config
 include(config.cmake)
 
+# include custom modules
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+
 # route to subdir
 add_subdirectory(tasks)
 add_subdirectory(tests)
