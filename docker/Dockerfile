@@ -1,5 +1,5 @@
 FROM archlinux:base-devel
-RUN pacman -Syu --noconfirm llvm lldb gdb clang antlr4 antlr4-runtime flex bear bison cmake ninja cuda cuda-tools cudnn hipify-clang python helix neovim vim p7zip git lld
+RUN pacman -Syu --noconfirm llvm lldb gdb clang antlr4 antlr4-runtime flex bear bison cmake ninja cuda cuda-tools cudnn hipify-clang python helix neovim vim p7zip git lld ripgrep
 
 ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
