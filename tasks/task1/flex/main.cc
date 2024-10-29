@@ -1,7 +1,8 @@
-#include <iostream>
+#include "lexer.l.hh"
 
 int
 main()
 {
-  std::cout << "Hello SYsU-GPUC" << std::endl;
+  // write your code here
+  return 0;
 }
