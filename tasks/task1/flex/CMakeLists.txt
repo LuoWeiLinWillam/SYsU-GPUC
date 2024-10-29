@@ -5,7 +5,7 @@ if(NOT FLEX_FOUND)
 endif()
 
 # use flex to generate lexer
-flex_target(lexer
+flex_target(task1-flex
   ${CMAKE_CURRENT_SOURCE_DIR}/lexer.l
   ${CMAKE_CURRENT_BINARY_DIR}/lexer.cc
   COMPILE_FLAGS ""
